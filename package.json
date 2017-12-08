@@ -1,0 +1,31 @@
+{
+    "name": "nsa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KSH-code/Nodejs-Synchronize-Asynchronous.git"
+    },
+    "keywords": [
+        "async",
+        "sync"
+    ],
+    "author": "KSH-Code <tjdgnsqn133@gmail.com> (http://github.com/ksh-code)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KSH-code/Nodejs-Synchronize-Asynchronous/issues"
+    },
+    "homepage": "https://github.com/KSH-code/Nodejs-Synchronize-Asynchronous#readme",
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "supertest": "^3.0.0"
+    }
+}
